@@ -84,8 +84,11 @@ brofit-gym/
 ![Login](login.png)
 
 
-### About
-![About](about.png)
+### Profile
+![Profile](profile.png)
+
+### Training
+![Training](tarining.png)
 
 
 
