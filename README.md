@@ -53,3 +53,44 @@ brofit-gym/
 - **Server:** XAMPP / WAMP / Localhost  
 
 ---
+## 🔐 Database
+
+- MySQL is used to store:
+
+- User registration details
+
+- Fitness profile information
+
+- Database connection is handled using PHP (mysqli) with prepared statements.
+
+## 📌 Purpose
+
+- This project is created for:
+
+- Learning full-stack web development
+
+- Academic submission
+
+- Practicing PHP & MySQL integration
+
+- Understanding user interaction in web applications
+
+📷 Screenshots
+
+(Add screenshots of your UI here)
+
+## ✨ Future Enhancements
+
+- Admin dashboard
+
+- BMI & calorie calculator
+
+- User progress tracking
+
+- Password reset functionality
+
+- Improved UI animations
+
+## 👤 Author
+
+**JAYANTH D R**
