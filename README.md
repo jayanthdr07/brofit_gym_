@@ -75,9 +75,19 @@ brofit-gym/
 
 - Understanding user interaction in web applications
 
-📷 Screenshots
+##  Screenshots
 
-(Add screenshots of your UI here)
+### Home Screen
+![Home Screen](home1.png)
+
+### Login
+![Login](login.png)
+
+
+### About
+![About](about.png)
+
+
 
 ## ✨ Future Enhancements
 
