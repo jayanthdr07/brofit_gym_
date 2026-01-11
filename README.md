@@ -21,3 +21,34 @@ The project focuses on user interaction, fitness profile management, and basic g
 
 ## 🗂 Project Structure
 
+brofit-gym/
+│
+├── builders.html # Builder / trainer related page
+├── database.sql # MySQL database structure
+├── equipment.html # Gym equipment information
+├── inspiration.html # Fitness motivation content
+├── login.html # User login page
+├── membership.html # Membership plans
+├── nutrition.html # Nutrition guidance
+├── page1.html
+├── page2.html
+├── page3.html
+├── page4.html # Additional content pages
+├── profile.html # Fitness profile UI
+├── profile.php # Fitness profile backend (PHP + MySQL)
+├── registration1.html # User registration UI
+├── registration1.php # Registration backend
+├── training.html # Training programs
+└── README.md # Project documentation
+
+
+---
+
+## 🛠 Technologies Used
+
+- **Frontend:** HTML5, CSS3  
+- **Backend:** PHP  
+- **Database:** MySQL  
+- **Server:** XAMPP / WAMP / Localhost  
+
+---
