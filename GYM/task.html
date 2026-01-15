@@ -1,0 +1,149 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Weekly Workout Plan</title>
+    <style>
+          body {
+            
+            background: url('https://images.unsplash.com/photo-1574680096145-d05b474e2155?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
+            background-size: cover;
+            
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #ecf0f1; /* Light text color for better readability on dark background */
+            padding: 20px;
+            margin: 0;
+        }
+
+        /* Container for the table content to give it a transparent dark backdrop */
+        .content-container {
+            background-color: rgba(0, 0, 0, 0.7); /* Dark, semi-transparent overlay */
+            padding: 30px;
+            border-radius: 10px;
+            max-width: 900px;
+            margin: 20px auto;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        h2 {
+            color: #1abc9c; /* Bright green accent */
+            text-align: center;
+            margin-bottom: 25px;
+            text-transform: uppercase;
+            border-bottom: 2px solid #1abc9c;
+            padding-bottom: 10px;
+        }
+
+        .workout-table {
+            width: 100%;
+            border-collapse: collapse;
+            /* No need for box-shadow here as the container has one */
+            background-color: rgba(255, 255, 255, 0.95); /* Nearly white background for table data */
+            border-radius: 8px;
+            overflow: hidden;
+            color: #34495e; /* Dark text for readability on light table background */
+        }
+
+        .workout-table th, .workout-table td {
+            padding: 15px 10px;
+            text-align: left;
+            border-bottom: 1px solid #bdc3c7;
+        }
+
+        .workout-table th {
+            background-color: #34495e; /* Dark header */
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            font-size: 0.9em;
+        }
+
+        .workout-table tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        .workout-table tr:hover {
+            background-color: #d1eef2; /* Light highlight on hover */
+        }
+        
+        .focus-area {
+            font-weight: bold;
+            color: #e67e22; /* Orange accent for focus */
+        }
+        
+        .rest-day {
+            background-color: #e74c3c; /* Red background for rest day */
+            color: white;
+            text-align: center;
+            font-style: italic;
+        }
+        
+        .rest-day:hover {
+            background-color: #c0392b; /* Darker red on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="content-container">
+        <h2>Weekly Training Plan: BROFIT Challenge</h2>
+
+        <table class="workout-table">
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Focus Area</th>
+                    <th>Specific Tasks / Exercises</th>
+                    <th>Duration / Sets</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td class="focus-area">Chest & Triceps</td>
+                    <td>Bench Press, Dumbbell Flys, Cable Crossovers, Tricep Pushdowns</td>
+                    <td>4 Sets of 10-12 Reps</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td class="focus-area">Legs & Abs</td>
+                    <td>Squats, Leg Press, Lunges, <br>Plank (3x60s), Crunches</td>
+                    <td>4 Sets of 8-15 Reps</td>
+                </tr>
+                <tr>
+                    <tr>
+                    <td>Wednesday</td>
+                    <td class="focus-area rest-day" colspan="3">30 minutes light cardio or swimming, stretching, foam rolling (Active Recovery).</td>
+                </tr>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td class="focus-area">Back & Biceps</td>
+                    <td>Deadlifts, Pull-ups (or Lat Pulldown), Barbell Rows, <br>Dumbbell Curls, Hammer Curls</td>
+                    <td>4 Sets of 8-10 Reps</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td class="focus-area">Shoulders & Upper Abs</td>
+                    <td>Overhead Press, Lateral Raises, Face Pulls, <br>Hanging Leg Raises</td>
+                    <td>3 Sets of 12-15 Reps</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td class="focus-area">Full Body Circuit</td>
+                    <td>Kettlebell Swings, Box Jumps, Medicine Ball Slams</td>
+                    <td>4 Rounds of 10 Reps each</td>
+                </tr>
+                <tr>
+                    <tr>
+                    <td>Sunday</td>
+                    <td class="focus-area rest-day" colspan="3">Complete rest and nutrition focus. Prepare for the next week!</td>
+                </tr>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+
+
