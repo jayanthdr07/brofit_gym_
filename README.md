@@ -7,7 +7,7 @@ The project focuses on user interaction, fitness profile management, and basic g
 ---
 ## 🚀 Features
 
-
+0
 - User Registration & Login system
 - Personal Fitness Profile creation
 - Gym equipment information
