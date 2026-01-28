@@ -5,7 +5,7 @@ The project focuses on user interaction, fitness profile management, and basic g
 
 
 ---
-## 🚀 Feature
+## 🚀 Features
 
 
 - User Registration & Login system
