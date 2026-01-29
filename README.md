@@ -3,7 +3,7 @@
 BROFIT GYM is a gym-based interactive web application developed using **HTML, CSS, PHP, and MySQL**.  
 The project focuses on user interaction, fitness profile management, and basic gym-related content such as training, nutrition, and equipment.
 
-
+]
 ---
 ## 🚀 Features
 
